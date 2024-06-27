@@ -64,12 +64,14 @@ npm start
             exemple de spoofing ARP (Address Resolution Protocol)
             , qui est une technique utilisée pour usurper l'identité d'un appareil sur un réseau local
             en envoyant des messages ARP falsifiés
-      
+      /!\ il faut modifier l'addresse IP et mac de la victim ainsi que celle du serveur afin d effectuer l empoisonement ARP
       4.vision:
                 Analyse les adresses IP et mac des terminaux dans le réseau local
 
       5.splinter cell: 
                      envoie  de commandes à distance et possibilité de télécharger des fichiers
+
+/!\ un fichier   Armand hacker.py est a executer apres splintercell.py(advanced_hacker.py) sur la machine victime, de plus sur les deux script veuiller rentrer les l'addresse IP de l attaquant ainsi que le port de connection( dans le script de l'attaquant)
 
       6.nuke: 
              Ce script est conçu pour effectuer une attaque par force brute sur une page de connexion d'un site web   """
